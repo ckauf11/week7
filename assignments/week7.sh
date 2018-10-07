@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+
+dnaSeq = "cagagcaagactctgtctaaataaataaattaattaaattaaaaaataaataaaattgatgttttaggctaggtgtggtggctcacgcctgtaatcccagcactttgggaggccaaagtaggtggatcacctgaggtcaggagttcgagaccagcctggccaacatggtgaaaccccatctctactaaaaatacaaaaattagccgggcatagtggcgcacacctgtaatcccagcaactcgggaggctgaggcaggagaatcgcttgaacccatgtggcaaaggttgctgtgagctgagatcacaccactgtactccagcctgggcgacagagcaagactgtgtctcaattaaaaaaaattgatatttttatcaggtattaactctgaaaatacaaaaattagccaggcgtgatggcccacacctgtaatcctagctactcgggaggctgaggcacgagaatcgcctgaacctaggaggtggaggttgcagtgagctgagattgtgacactgcactccagtctggtgacagagcgagaccctctcaaaaaaaaaaaagaaaagccgagggagagaaaccttcccatttagtctgtggcatgtgtcttcatgaattgcttaagctctcaaatgttctttcagtaatttaaactcttctgctggttttcctgggaagggtgctgtataatcacatattaatgagtctttatgtgataaccttgaacaggcacgtggaggagttcagccccagagctgtctacaccagtggtaaagcgtccagtgctgctggcttaacagcagctgttgtgagagatgaagaatctcatgagtttgtcattgaggctggagctttgatgttggctgataatgtaagaacattttacactcttcagtataaagaagtcagaatacccctaccctatcagtaaaggcctataagttaccattaaaaagatgtccttaaaaacagcattctcagctgggcgcggtggctcacacctttgtcccagtactttgggaagccgaggtgggtggatcacctgaggtcaggagttcgagaccagcctggccaacatggcgaaaacccattttctctactaaaaatacaaaaattagccgggcatggtggcgggtgcttgt"
+
+
+# Calculate total sequence length
+print ("total sequence length")
+print (len(dnaSeq))
+
+#use this to count number of As
+print  ("Number of As:")
+print (dnaSeq.count('a'))
+
+print ("Number of C's")
+print (dnaSeq.count ('c'))
+
+print ("Number of Gs")
+print (dnaSeq.count ('g'))
+
+print ("Number of Ts")
+print (dnaSeq.count ('t'))
+
